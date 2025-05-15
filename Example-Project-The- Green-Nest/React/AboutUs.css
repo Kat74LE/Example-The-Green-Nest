@@ -1,0 +1,172 @@
+.title {
+  font-size: 4.5rem;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.big-image {
+  object-fit: cover;
+  height: 28rem;
+  flex-shrink: 0;
+}
+
+.col-2 {
+  padding-left: 0;
+  padding-right: 0.2rem;
+}
+
+.background-blue {
+  background-color: var(--backgroundgrey);
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.height {
+  padding-inline: 1rem;
+  padding-top: 1rem;
+  flex: 0 0 auto;
+}
+
+.height-2 {
+  flex: 0 0 auto;
+  padding-block: 0.9rem;
+}
+
+.height-remaining {
+  display: flex;
+  align-items: center;
+  padding-inline: 1rem;
+  flex: 1 1 auto;
+}
+
+.section-line {
+  margin: 0;
+  width: 100%;
+}
+
+.figure-caption-line {
+  background: var(--lightblue);
+  height: 0.1rem;
+  width: 80%;
+}
+
+.card-background-1 {
+  border-radius: 0.6rem;
+  background-image: url("/assets/images/about_us_1.png");
+  background-size: cover;
+}
+
+.card-subtitle {
+  font-size: 2rem;
+  line-height: normal;
+  color: chartreuse;
+}
+
+.about-us-card-title {
+  font-size: 2rem;
+}
+.card-text-1 {
+  font-size: 0.9rem;
+  line-height: normal;
+}
+
+.card-background-2 {
+  border-radius: 0.6rem;
+  background-image: url("/assets/images/about_us_2.png");
+  background-size: cover;
+}
+
+.card-text-2 {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.how-we-work {
+  font-size: 2rem;
+  line-height: normal;
+}
+
+.section-title {
+  font-size: 1.9rem;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+
+.section-title-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-decoration-thickness: 0.32rem;
+  text-underline-offset: 1rem;
+}
+
+.section-desc {
+  font-size: 0.82rem;
+  line-height: normal;
+}
+
+.how-text {
+  font-size: 0.75rem;
+  line-height: normal;
+}
+
+.how-text-2 {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-us-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.about-us-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .col-2 {
+    padding-inline: 0;
+    padding-bottom: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-background-1,
+  .card-background-2 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 3.5rem;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .section-title-underline {
+    text-decoration: none;
+  }
+}
